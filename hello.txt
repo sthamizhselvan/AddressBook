@@ -4,7 +4,7 @@ I have added this new file to commit in Git
 THis is first line added
 
 
-Added another line of code
+Updated the second line
 
-Thank you!
+Than you!
 
