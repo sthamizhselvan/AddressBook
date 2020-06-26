@@ -39,7 +39,7 @@ public class AddressbookUI extends UI {
      */
     TextField filter = new TextField();
     Grid contactList = new Grid();
-    Button newContact = new Button("New contact");
+    Button newContact = new Button("New contact to add");
 
     // ContactForm is an example of a custom component class
     ContactForm contactForm = new ContactForm();
@@ -72,7 +72,7 @@ public class AddressbookUI extends UI {
          */
         newContact.addClickListener(e -> contactForm.edit(new Contact()));
 
-        filter.setInputPrompt("Filter contacts by Name...");
+        filter.setInputPrompt("Filter contacts to list");
         filter.addTextChangeListener(e -> refreshContacts(e.getText()));
 
         contactList
